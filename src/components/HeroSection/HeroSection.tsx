@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { Search } from "lucide-react";
-import "./HeroSection.css";
 
 export function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
