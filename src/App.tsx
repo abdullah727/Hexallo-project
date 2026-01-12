@@ -1,5 +1,4 @@
 import { ExploreGhana } from "./components/CategoryMedia/ExploreGhana";
-import { Header } from "./components/Header";
 import { HiddenGemsSection } from "./components/HiddenGemsSection";
 import { EventCategoryList } from "./components/EventCategory/EventCategoryList";
 import { ExclusiveSection } from "./components/ExclusiveSection";
@@ -11,7 +10,6 @@ import { BlazingDeals } from "./components/BlazingDeals/BlazingDeals";
 function App() {
   return (
     <div className="min-h-screen bg-[#FAF9F7]">
-      <Header />
       <main className="mx-[40px] my-[10px]">
         <EventCategoryList title={`Tonight's Spotlight`} />
         <EventCategoryList title="Hot This Week" />
