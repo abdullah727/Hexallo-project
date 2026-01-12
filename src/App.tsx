@@ -12,7 +12,7 @@ import { BlazingDeals } from "./components/BlazingDeals/BlazingDeals";
 function App() {
   return (
     <div className="min-h-screen bg-[#FAF9F7]">
-      <Header />
+      {/* <Header /> */}
       <main className="mx-[40px] my-[10px]">
         <HeroSection />
         <EventCategoryList title={`Tonight's Spotlight`} />
