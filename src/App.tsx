@@ -1,5 +1,4 @@
 import { ExploreGhana } from "./components/CategoryMedia/ExploreGhana";
-import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection/HeroSection";
 import { HiddenGemsSection } from "./components/HiddenGemsSection";
 import { EventCategoryList } from "./components/EventCategory/EventCategoryList";
